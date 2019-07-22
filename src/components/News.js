@@ -6,14 +6,16 @@ const News = () => {
   const [headlines, setHeadlines] = React.useState([{}]);
   const [loading, setLoading] = React.useState(true);
 
+  const newsKey = '4bfc740b835c4a4d969454f0a083e16d';
+
   React.useEffect(() => {
-    Axios(
-      `https://newsapi.org/v2/top-headlines?sources=google-news-br&apiKey=${process.env.newsKey}`,
-    ).then((res) => {
-      const { articles } = res.data;
-      setHeadlines(articles);
-      setLoading(false);
-    });
+    Axios(`https://newsapi.org/v2/top-headlines?sources=google-news-br&apiKey=${newsKey}`).then(
+      (res) => {
+        const { articles } = res.data;
+        setHeadlines(articles);
+        setLoading(false);
+      },
+    );
   }, []);
 
   return (

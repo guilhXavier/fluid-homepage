@@ -23,6 +23,7 @@ const Weather = () => {
 
   const lat = '-29.8512';
   const long = '-51.1779';
+  const weatherKey = '1818538ed54299479909a162a2867b3e';
 
   const index = {
     'clear-day': faSun,
@@ -38,9 +39,7 @@ const Weather = () => {
 
   React.useEffect(() => {
     Axios(
-      `https://cors-anywhere.herokuapp.com/https://api.darksky.net/forecast/${
-        process.env.weatherKey
-      }/${lat},${long}?exclude=minutely,daily,alerts,flags&units=auto`,
+      `https://cors-anywhere.herokuapp.com/https://api.darksky.net/forecast/${weatherKey}/${lat},${long}?exclude=minutely,daily,alerts,flags&units=auto`,
     ).then((res) => {
       setCurrentWeather(res.data.currently);
       setForecast(res.data.hourly);
