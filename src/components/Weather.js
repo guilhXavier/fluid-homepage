@@ -21,7 +21,6 @@ const Weather = () => {
   const [currentWeather, setCurrentWeather] = React.useState({});
   const [forecast, setForecast] = React.useState([]);
 
-  const apiKey = '1818538ed54299479909a162a2867b3e';
   const lat = '-29.8512';
   const long = '-51.1779';
 
@@ -39,7 +38,9 @@ const Weather = () => {
 
   React.useEffect(() => {
     Axios(
-      `https://cors-anywhere.herokuapp.com/https://api.darksky.net/forecast/${apiKey}/${lat},${long}?exclude=minutely,daily,alerts,flags&units=auto`,
+      `https://cors-anywhere.herokuapp.com/https://api.darksky.net/forecast/${
+        process.env.weatherKey
+      }/${lat},${long}?exclude=minutely,daily,alerts,flags&units=auto`,
     ).then((res) => {
       setCurrentWeather(res.data.currently);
       setForecast(res.data.hourly);
