@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/fluid-homepage/static/css/main.72685236.chunk.css",
-    "main.js": "/fluid-homepage/static/js/main.497f47c4.chunk.js",
-    "main.js.map": "/fluid-homepage/static/js/main.497f47c4.chunk.js.map",
+    "main.js": "/fluid-homepage/static/js/main.52b3c391.chunk.js",
+    "main.js.map": "/fluid-homepage/static/js/main.52b3c391.chunk.js.map",
     "runtime~main.js": "/fluid-homepage/static/js/runtime~main.28bdf55b.js",
     "runtime~main.js.map": "/fluid-homepage/static/js/runtime~main.28bdf55b.js.map",
     "static/js/2.b10290a4.chunk.js": "/fluid-homepage/static/js/2.b10290a4.chunk.js",
     "static/js/2.b10290a4.chunk.js.map": "/fluid-homepage/static/js/2.b10290a4.chunk.js.map",
     "index.html": "/fluid-homepage/index.html",
-    "precache-manifest.38183b22387bae55cddb544be25aaf79.js": "/fluid-homepage/precache-manifest.38183b22387bae55cddb544be25aaf79.js",
+    "precache-manifest.cb585e718f5b2f4221db2029cdc13045.js": "/fluid-homepage/precache-manifest.cb585e718f5b2f4221db2029cdc13045.js",
     "service-worker.js": "/fluid-homepage/service-worker.js",
     "static/css/main.72685236.chunk.css.map": "/fluid-homepage/static/css/main.72685236.chunk.css.map"
   }
