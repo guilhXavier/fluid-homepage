@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/guilhXavier/fluid-homepage/static/css/main.72685236.chunk.css",
-    "main.js": "/guilhXavier/fluid-homepage/static/js/main.614e0d97.chunk.js",
-    "main.js.map": "/guilhXavier/fluid-homepage/static/js/main.614e0d97.chunk.js.map",
-    "runtime~main.js": "/guilhXavier/fluid-homepage/static/js/runtime~main.c8dbe12a.js",
-    "runtime~main.js.map": "/guilhXavier/fluid-homepage/static/js/runtime~main.c8dbe12a.js.map",
-    "static/js/2.b10290a4.chunk.js": "/guilhXavier/fluid-homepage/static/js/2.b10290a4.chunk.js",
-    "static/js/2.b10290a4.chunk.js.map": "/guilhXavier/fluid-homepage/static/js/2.b10290a4.chunk.js.map",
-    "index.html": "/guilhXavier/fluid-homepage/index.html",
-    "precache-manifest.6bb9479970a57badcb03c17eb1cf9e8a.js": "/guilhXavier/fluid-homepage/precache-manifest.6bb9479970a57badcb03c17eb1cf9e8a.js",
-    "service-worker.js": "/guilhXavier/fluid-homepage/service-worker.js",
-    "static/css/main.72685236.chunk.css.map": "/guilhXavier/fluid-homepage/static/css/main.72685236.chunk.css.map"
+    "main.css": "/fluid-homepage/static/css/main.72685236.chunk.css",
+    "main.js": "/fluid-homepage/static/js/main.497f47c4.chunk.js",
+    "main.js.map": "/fluid-homepage/static/js/main.497f47c4.chunk.js.map",
+    "runtime~main.js": "/fluid-homepage/static/js/runtime~main.28bdf55b.js",
+    "runtime~main.js.map": "/fluid-homepage/static/js/runtime~main.28bdf55b.js.map",
+    "static/js/2.b10290a4.chunk.js": "/fluid-homepage/static/js/2.b10290a4.chunk.js",
+    "static/js/2.b10290a4.chunk.js.map": "/fluid-homepage/static/js/2.b10290a4.chunk.js.map",
+    "index.html": "/fluid-homepage/index.html",
+    "precache-manifest.38183b22387bae55cddb544be25aaf79.js": "/fluid-homepage/precache-manifest.38183b22387bae55cddb544be25aaf79.js",
+    "service-worker.js": "/fluid-homepage/service-worker.js",
+    "static/css/main.72685236.chunk.css.map": "/fluid-homepage/static/css/main.72685236.chunk.css.map"
   }
 }
