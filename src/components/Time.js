@@ -1,9 +1,6 @@
 import React from 'react';
 
 const Time = () => {
-  const [timestamp, setTimestamp] = React.useState();
-  const [datestamp, setDatestamp] = React.useState({});
-
   const clock = () => {
     const date = new Date();
     const hors = date.getHours();
@@ -23,10 +20,14 @@ const Time = () => {
     };
   };
 
+  const [timestamp, setTimestamp] = React.useState(clock());
+  const [datestamp, setDatestamp] = React.useState(getDate());
+
   React.useEffect(() => {
-    setDatestamp(getDate);
-    setTimestamp(clock);
-  }, []);
+    const interval = setInterval(() => setTimestamp(clock()), 1000);
+
+    return () => clearInterval(interval);
+  });
 
   return (
 		<React.Fragment>
